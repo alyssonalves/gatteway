@@ -1,0 +1,38 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "br.com.novio"
+        },
+        "jhipsterVersion": "5.7.1",
+        "applicationType": "gateway",
+        "baseName": "gateway",
+        "packageName": "br.com.novio",
+        "packageFolder": "br/com/novio",
+        "serverPort": "8090",
+        "authenticationType": "jwt",
+        "cacheProvider": "hazelcast",
+        "enableHibernateCache": false,
+        "websocket": false,
+        "databaseType": "mongodb",
+        "devDatabaseType": "mongodb",
+        "prodDatabaseType": "mongodb",
+        "searchEngine": false,
+        "messageBroker": "kafka",
+        "serviceDiscoveryType": "eureka",
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "NWViN2NjMmQ3ZGJhMWRhY2VlYjlmYzkyYmZmM2E5M2IyYWViNDcwNDkwNjRkY2FkMzcwMzBjNDI1YTM3MzhlNjhmNjBlNGI0OTY5NzNhZmMzM2VhNzJiYzkyOTk4YTcxZTAyNGE4YTIzMGYyNzYzYjNhMzJiN2Q3YzFiMTA4NzU=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "otherModules": [
+            {
+                "name": "generator-jhipster-swagger-cli",
+                "version": "3.0.1"
+            }
+        ],
+        "enableTranslation": false
+    }
+}
